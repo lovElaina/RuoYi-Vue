@@ -59,7 +59,7 @@ spec:
             type: ''
       containers:
         - name: container-dinltj
-          image: '$REGISTRY/ruoyi-fe:SNAPSHOT-$BUILD_NUMBER'
+          image: '$REGISTRY/$DOCKERHUB_NAMESPACE/ruoyi-fe:SNAPSHOT-$BUILD_NUMBER'
           ports:
             - name: tcp-80
               containerPort: 80

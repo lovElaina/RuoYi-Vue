@@ -58,7 +58,7 @@ spec:
             type: ''
       containers:
         - name: container-00nqaf
-          image: '$REGISTRY/ruoyi-be:SNAPSHOT-$BUILD_NUMBER'
+          image: '$REGISTRY/$DOCKERHUB_NAMESPACE/ruoyi-be:SNAPSHOT-$BUILD_NUMBER'
           ports:
             - name: tcp-8421
               containerPort: 8421
